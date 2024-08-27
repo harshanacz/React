@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.error-msg {
+    margin-top: 0px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+}
+
+p {
+    margin-top: 8px;
+    text-align: center;
+    color: rgb(187, 184, 178);
+    font-weight: 300;
+}
+
+
+.inputer {
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin-right: 10px;
+    border: none;
+    width: 60vw;
+    background-color: #3b3b3b;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.addButton {
+    font-size: 1.0rem;
+    padding: 10px 25px;
+    background-color: #2761F0;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    transform: scale(1.03);
+}
+
+.tasks{
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: left; 
+    width: 100%; list-style-type: none;padding: 0;
+    margin: 0;
+}
+.mainArea{
+    margin-bottom: 15px;
+    
+}
+
+.task{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #272626;
+    margin-bottom: 4px;border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-title{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+i{
+    margin: 0 8px;
+}
+
+.navigations {
+    display: flex;
+    gap: 5px;
+}
+
+.navigations i {
+    cursor: pointer;
+}
